@@ -1,0 +1,1864 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto Condensed", sans-serif;
+    box-sizing: border-box;
+}
+body {
+    background-color: black;
+    color: white;
+
+  }
+
+  .header nav {
+    z-index: 999;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    margin-left: 30px;
+    /* margin-bottom: 100px; */
+}
+
+.title{
+    font-size: 34px;
+ font-family:  system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  position: relative;
+ color: rgb(179, 49, 49); 
+ -webkit-text-stroke: 1px #fff;
+ /* margin-bottom: 100px; */
+}
+  
+.nav1{
+    display: flex;
+    /* justify-content: space-between; */
+    font-weight: 300;
+    font-size: 18px;
+   /* margin-left: 85px; */
+   list-style: none;
+   /* margin-bottom: 100px; */
+   margin-left: 380px;
+   justify-content: flex-end;
+}
+
+.nav1 li{
+    margin: 15px;
+    color: white;
+    cursor: pointer;
+    
+}
+.nav1 a{
+    text-decoration: none;
+}
+
+ 
+.nav1 li:hover{
+     color: #b13434;
+    transition: 0.5s;
+    text-transform: uppercase; 
+   
+}
+.btn{
+    background: rgb(179, 49, 49);
+    font-family: "Oswald", sans-serif;
+    padding: 16px 30px;
+    color: #fff;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 600;
+    border: 2PX solid white;
+    margin: 55px;
+     
+    margin-bottom: 160px;
+    cursor: pointer;
+}
+.btn:hover{
+    transform: scale(1.1);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    background-color: rgb(225, 78, 78);
+}
+.headercon{
+    width: 100%;
+    height: 100vh;
+    background:url(valery-sysoev-LDAirERNzew-unsplash.jpg);
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(valery-sysoev-LDAirERNzew-unsplash.jpg);
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    z-index: -1;
+}
+.headerpage1{
+    margin-top: 100px;
+}
+.hp1{
+    font-size: 50px;
+    font-family:"Oswald", sans-serif;
+    font-weight: 700;
+    -webkit-text-stroke: 1px  rgba(254, 248, 248, 0.938);
+    -webkit-text-fill-color:rgb(179, 49, 49);
+    position: relative;
+    display: inline-block;
+    margin-left: 110px;
+    line-height: 50px;
+    
+}
+.hp2{
+    font-size: 75px;
+    font-family:"Oswald", sans-serif ;
+    font-weight: bold;
+    margin-left: 110px;
+    line-height: 130px;
+    margin-bottom: 10px;
+}
+.btn01{
+    font-size: 16px;
+    font-weight: 600;
+    padding: 20px 40px;
+    background-color:rgb(179, 49, 49) ;
+    color: #fff;
+    margin-left: 110px;
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+.btn01:hover{
+    background-image: linear-gradient(to left,#dc1717,#a03333,#5b4444
+    );
+   background-position: top;
+}
+.feaurow1{
+    display: flex;
+     margin-top: 120px;
+     width: 100%;
+     height: 60vh;
+     text-align: center;
+  flex-wrap: wrap;
+ 
+     
+}
+
+.trainer1{
+    width: 40%;
+    height:50vh;
+    position: relative;
+    border: 1px solid red;
+    box-shadow: 0px 0px 10px rgb(230, 86, 86);
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(feautures.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+  margin-left: 90px;
+
+ 
+}
+.trainer2{
+    width: 40%;
+    height:50vh;
+    position: relative;
+    border: 1px solid red;
+    box-shadow: 0px 0px 10px rgb(230, 86, 86);
+
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(photo-1581009146145-b5ef050c2e1e.avif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+   margin-left: 90px;
+   
+}
+.para1 h3{
+    font-size: 40px;
+    font-family: "Oswald", sans-serif;
+    font-style: normal;
+    margin-top: 90px;
+    
+}
+.para1 p{
+    font-size: 15px;
+    font-family:  "Roboto Condensed", sans-serif;
+    font-weight: 400;
+    width: 520px;
+    line-height: 23px;
+    backdrop-filter:1px;
+}
+.btn-01{
+    font-size: 20px;
+    font-weight: 600;
+    padding: 20px 30px;
+    color: #fff;
+    margin-top: 50px;
+    background-color:transparent ;
+    border: 1px solid white;
+    cursor: pointer;
+}
+.btn-01:hover{
+    background-image: linear-gradient(to left,#dc1717,#a03333,#5b4444
+    );
+   background-position: top;
+}
+.para2 h3{
+    font-size: 40px;
+    font-family: "Oswald", sans-serif;
+    font-style: normal;
+    margin-top: 90px;
+}
+.para2 p{
+    font-size: 15px;
+    font-family:  "Roboto Condensed", sans-serif;
+    font-weight: 400;
+    width: 520px;
+    line-height: 23px;
+    backdrop-filter:1px;
+}
+.btn-02{
+    font-size: 20px;
+    font-weight: 600;
+    padding: 20px 30px;
+    color: #fff;
+    margin-top: 50px;
+    background-color:transparent ;
+    border: 1px solid white;
+    cursor: pointer;
+}
+.btn-02:hover{
+    background-image: linear-gradient(to left,#dc1717,#a03333,#5b4444
+    );
+   background-position: top;
+}
+
+.offset{
+    font-size: 110px;
+    text-transform: uppercase;
+    color: #fff;
+    -webkit-text-stroke: 1px #f6f7f8;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+}
+.offphoto{
+    display: flex;
+    width: 100%;
+    height: 85vh;
+    margin-top: 10px;
+}
+
+.imgph1{
+    height: 47vh; 
+    margin-left: 70px;
+}
+.imgph2{
+    height: 47vh;
+    margin-left: 40px;
+    width: 80%;
+}
+.imgph3{
+width: 80%;
+height: 47vh;
+}
+.offph1 h2{
+    font-size:29px ;
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+    line-height: 70px;
+}
+.offph1 p{
+    font-size: 14px;
+    width: 80%;
+    text-align: center;
+    margin-left: 70px;
+    line-height: 20px;
+}
+.offph2 h2{
+    font-size:29px ;
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+    line-height: 70px;
+}
+.offph2 p{
+    font-size: 14px;
+    width: 80%;
+    text-align: center;
+    margin-left: 40px;
+    line-height: 20px;
+}
+.offph3 h2{
+    font-size:29px ;
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+    line-height: 70px;
+    margin-right: 80px;
+}
+.offph3 p{
+    font-size: 14px;
+    width: 80%;
+    text-align: center;
+    line-height: 20px;
+}
+.gallery{
+    display: flex;
+    width: 100%;
+    height: 70vh;
+    flex-wrap: wrap;
+}
+.gallimg1{
+    width: 90%;
+    height: 60vh;
+    /* border: 1px solid gray;
+    box-shadow: 0px 0px 6px ; */
+    margin-left: 30px;
+    line-height: 30px;
+    cursor: pointer;
+}
+.gallimg1:hover{
+box-shadow:0px 0px 10px;
+background-color: rgb(69, 68, 68);
+}
+ 
+.gallimg2{
+    width: 100%;
+    height: 60vh;
+    margin-left:70px ;
+    line-height: 30px;
+    cursor: pointer;
+}
+.gallimg2:hover{
+    box-shadow:0px 0px 10px;
+    background-color: rgb(69, 68, 68);
+    }
+.gallery2{
+    display: flex;
+    width: 100%;
+    height: 80vh;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.gallimg3{
+    width: 120%;
+    height: 60vh;
+    margin-top: 30px;
+    cursor: pointer;
+}
+.gallimg3:hover{
+    box-shadow:0px 0px 10px;
+    background-color: rgb(69, 68, 68);
+    }
+.gallimg4{
+    width: 120%;
+    height: 60vh;
+    margin-top: 30px;
+    cursor: pointer;
+}
+.gallimg4:hover{
+    box-shadow:0px 0px 10px;
+    background-color: rgb(69, 68, 68);
+    }
+.gallimg5{
+    width: 120%;
+    height: 60vh;
+    margin-top: 30px; 
+    cursor: pointer;
+}
+.gallimg5:hover{
+    box-shadow:0px 0px 10px;
+    background-color: rgb(69, 68, 68);
+    }
+.pricetag{
+    font-size: 110px;
+    text-transform: uppercase;
+    color: #fff;
+    -webkit-text-stroke: 1px #f6f7f8;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    height: 30vh;
+}
+.pricecont{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 90vh; 
+}
+.pbox1{
+        height: 75vh;
+        width: 25%;
+        border: 1px solid white;
+        background-color: white;
+        box-shadow: 0px 0px 10px white;
+     }
+
+
+.pbox2{
+    height: 75vh;
+    width: 25%;
+    border: 1px solid white;
+    box-shadow: 0px 0px 10px white;
+    background-color:white;
+}
+
+.pbox3{
+    height: 75vh;
+    width: 25%;
+    border: 1px solid white;
+    box-shadow: 0px 0px 10px white;
+    background-color:white;
+}
+.pbox1 h2{
+    font-size: 25px;
+    -webkit-text-stroke: 2px black;
+    text-align: center;
+    line-height: 100px;
+}
+.pbox1 h3{
+    font-size: 50px;
+    font-family:  serif;
+    color: black;
+    text-align: center;
+}
+.pbox1 h4{
+font-size: 18px;
+font-family: "Roboto Condensed", sans-serif;
+color: black;
+text-align: center;
+font-family: none;
+}
+.pbox1 p{
+    font-size: 16px;
+    color:black;
+    line-height: 50px;
+    text-align: center;
+    font-family:"Roboto Condensed", sans-serif ;
+}
+.pbox1 button{
+    font-size: 18px;
+    padding: 15px 10px;
+    margin-left: 90px;
+    margin-top: 40px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.pbox1 button:hover{
+    box-shadow:0px 0px 6px black ;
+   cursor: pointer;
+}
+.pbox2 h2{
+    font-size: 25px;
+    -webkit-text-stroke: 2px black;
+    text-align: center;
+    line-height: 100px;
+}
+.pbox2 h3{
+    font-size: 50px;
+    font-family:  serif;
+    color: black;
+    text-align: center;
+}
+.pbox2 h4{
+font-size: 18px;
+font-family: none;
+color: black;
+text-align: center;
+}
+.pbox2 p{
+    font-size: 16px;
+    font-family: "Roboto Condensed", sans-serif;
+    color: black;
+    line-height: 50px;
+    text-align: center;
+}
+.pbox2 button{
+    font-size: 18px;
+    padding: 15px 10px;
+    margin-left: 90px;
+    margin-top: 40px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.pbox2 button:hover{
+    box-shadow:0px 0px 6px black ;
+   cursor: pointer;
+}
+.pbox3 h2{
+    font-size: 25px;
+    -webkit-text-stroke: 2px black;
+    text-align: center;
+    line-height: 100px;
+}
+.pbox3 h3{
+    font-size: 50px;
+    font-family:  serif;
+    color: black;
+    text-align: center;
+}
+.pbox3 h4{
+font-size: 18px;
+font-family: none;
+color: black;
+text-align: center;
+}
+.pbox3 p{
+    font-size: 16px;
+    font-family: "Roboto Condensed", sans-serif;
+    color: black;
+    line-height: 50px;
+    text-align: center;
+}
+.pbox3 button{
+    font-size: 18px;
+    padding: 15px 10px;
+    margin-left: 90px;
+    margin-top: 40px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.pbox3 button:hover{
+    box-shadow:0px 0px 6px black ;
+   cursor: pointer;
+}
+.contact01{
+    display: flex;
+    justify-content: space-evenly;
+    background-color:rgb(31, 30, 30);
+    height: 40vh;
+   
+}
+.num1{
+    width: 25%;
+}
+.num2{
+    width: 25%;
+}
+.num3{
+    width: 25%;
+}
+#loca{
+font-size: 60px;
+color: #dc1717;
+margin-left: 130px;
+margin-top: 45px;
+}
+#mobi{
+    font-size: 60px;
+    color: #dc1717;
+    margin-left: 130px;
+    margin-top: 45px;
+}
+#email{
+    font-size: 60px;
+    color: #dc1717;
+    margin-left: 130px;
+    margin-top: 45px;
+}
+.num1 h2{
+    font-size: 20px;
+    font-family:"Roboto Condensed", sans-serif; ;
+    text-align: center;
+    margin-top: 20px;
+}
+.num1 p{
+    font-size: 14px;
+    text-align: center;
+    margin-top: 15px;
+}
+.num2 h2{
+    text-align: center;
+    margin-top: 20px;
+    margin-left: -30px;
+    font-size: 20px;
+    font-family:"Roboto Condensed", sans-serif; ;
+}
+.num2 p{
+    font-size: 14px;
+    text-align: center;
+    margin-top: 15px;
+    margin-left: -30px;
+    
+}
+.num3 h2{
+    font-size: 20px;
+    font-family:"Roboto Condensed", sans-serif; 
+    text-align: center;
+    margin-top: 20px;
+    margin-left: -25px;
+}
+.num3 p{
+    font-size: 14px;
+    text-align: center;
+    margin-top: 15px;
+}
+.footerlogo{
+    text-align: center;
+}
+
+#ftlogo{
+    text-align: center;
+}
+.nav2{
+    display: flex;
+    justify-content: space-between;
+    font-size: 17px;
+   margin-left: 210px;
+   list-style: none;
+   margin-bottom: 30px;
+   font-family: "Roboto Condensed", sans-serif;
+}
+.nav2 a{
+    text-decoration: none;
+}
+
+.nav2 li{
+    margin: 15px;
+    color: white;
+    cursor: pointer;
+}
+ 
+.nav2 li:hover{
+    color: #b13434;
+    transition: 0.5s;
+    text-transform: uppercase;
+    text-decoration: underline transparent;
+
+}
+.socialmed{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    cursor: pointer;
+}
+.link{
+    color: #fff;
+   margin-right: 20px;
+
+}
+.goo{
+    color: #fff;
+    margin-right: 20px;
+}
+.you{
+    color: #fff;
+    margin-right: 20px;
+}
+.snap{
+    color: #fff;
+    margin-right: 20px;
+}
+.ins{
+    color: #fff;
+    margin-right: 20px;
+}
+.link:hover{
+    transform: rotate(0deg) skew(0deg) translate(0, -10px);
+   color: #1a73e8;
+}
+.goo:hover{
+    transform: rotate(0deg) skew(0deg) translate(0, -10px);
+   color: rgb(41, 78, 91);
+}
+.you:hover{
+    transform: rotate(0deg) skew(0deg) translate(0, -10px);
+   color:red;
+}
+.snap:hover{
+    transform: rotate(0deg) skew(0deg) translate(0, -10px);
+    color: yellow;
+} 
+.ins:hover{
+    transform: rotate(0deg) skew(0deg) translate(0, -10px);
+   color: rgb(218, 45, 195);
+}
+.under{
+    border-top: 2px solid #1f2024;
+    margin-top: 20px;
+}
+.copyrig p{
+    font-size: 14px;
+    margin-left: -35px;
+    margin-top: 30px;
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: normal;
+    height: 5vh;
+   
+}
+.copyrig span{
+    font-family:"Roboto Condensed", sans-serif;
+    font-weight: normal; 
+    font-size: 14px;
+    color: gray;
+}
+.copyrig span:HOVER{
+    color:rgb(62, 59, 59) ;
+}
+
+/*---------------------- HAMBURGER-------------- */
+#icon{
+    color: #fff;
+    font-size: 25px;
+    line-height: 80px;
+    float: right;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+    /* margin-bottom: 100px; */
+}
+/*--------------------------- media quries------------------ */
+@media(max-width:1075px){
+    .logo {
+        margin-left: 8px;
+        /* margin-bottom: 100px; */
+        width: 130px;
+    }
+    nav a{
+        margin-left: -17px;
+    }
+    .nav1 {
+        margin-left: 320px;
+    }
+    .para1 h3 {
+        font-size: 32px;
+        margin-top: 32px;
+    }
+    .para1 p {
+        font-size: 14px;
+        font-weight: 400;
+        width: 400px;
+    }
+    .para2 h3 {
+        font-size: 32px;
+        margin-top: 32px;
+    }
+    .para2 p {
+        font-size: 14px;
+        font-weight: 400;
+        width: 400px;
+    }
+    .feaurow1 {
+        margin-left: -25px;
+    }
+    .gallery {
+        flex-wrap:nowrap;
+    }
+    .gallimg1 {
+        width: 80%;
+    }
+    .gallimg2 {
+        width: 80%;
+    }
+    .gallery2 {
+        width: 95%;
+    }
+    .nav2 {
+        margin-left: 142px;
+    }
+    .pbox3 button {
+        margin-left: 58px;
+        margin-top: 26px;
+    }
+    .pbox2 button {
+        margin-left: 58px;
+        margin-top: 26px;
+    }
+    .pbox1 button {
+        margin-left: 58px;
+        margin-top: 26px;
+    }
+     #email {
+        margin-left: 92px;
+    }
+    #mobi {
+        margin-left: 88px;
+    }
+    #loca{
+        margin-left: 88px;
+    }
+        
+    
+}
+@media(max-width:1024px){
+    .nav1 {
+        margin-left: 230px;
+    }
+    .nav2 {
+        margin-left: 125px;
+    }
+    .copyrig p {
+        font-size: 14px;
+        margin-left: -30px;
+    }
+    
+    #email{
+        margin-left: 85px;
+    }
+    #mobi{
+        margin-left: 85px;
+    }
+
+}
+@media(max-width:974px){
+    .nav1 {
+        margin-left: 195px;
+    }
+    .hp1 {
+        margin-left: 90px;
+    }
+    .hp2 {
+        margin-left: 90px;
+    }
+    .btn01{
+        margin-left: 90px;
+    }
+    .para1 p {
+        width: 320px;
+        margin-left: 20px;
+    }
+    .para2 p {
+        width: 320px;
+        margin-left: 20px;
+    }
+    .offset {
+        font-size: 100px;
+    }
+    .imgph1 {
+        height: 47vh;
+        margin-left: 25px;
+        width: 85%;
+    }
+    .imgph2 {
+        height: 47vh;
+        margin-left: 25px;
+        width: 80%;
+    }
+    .offph1 h2 {
+        font-size: 26px;
+    }
+    .offph2 h2 {
+        font-size: 26px;
+        margin-left: -4px;
+    }
+    .offph3 h2 {
+        font-size: 26px;
+        margin-left: 14px;
+    }
+    .offph1 p {
+        margin-left: 38px;
+    }
+    .gallimg2 {
+        width: 80%;
+        margin-left: 10px;
+    }
+    .pbox3 h2 {
+        font-size: 23px;
+    }
+    .pbox2 h2 {
+        font-size: 23px;
+    }
+    .pbox1 h2 {
+        font-size: 23px;
+    }
+    .pbox3 button {
+     margin-left: 40px;
+      }
+
+    .pbox2 button {
+      margin-left: 40px;
+      }
+     .pbox1 button {
+     margin-left: 40px;
+     }
+     .nav2 {
+        margin-left: 115px;
+    }
+    .socialmed {
+        margin-left: 40px;
+    }
+    #email{
+        margin-left:75px
+    }
+    #mobi{
+        margin-left:75px
+    }
+    #loca{
+        margin-left:75px
+    }
+} 
+@media(max-width:924px){
+    .nav1 {
+        margin-left: 150px;
+    }
+    .feaurow1 {
+        flex-wrap: nowrap;
+    }
+    .trainer2 {
+        margin-left: 60px;
+    }
+    .offset {
+        font-size: 90px;
+    }
+    .gallimg1 {
+        width: 80%;
+    }
+    #email {
+        margin-left: 70px;
+    }
+    #mobi {
+        margin-left: 70px;
+    }
+    .nav2 {
+        margin-left: 100px;
+    }
+
+}
+@media(max-width:874px){
+    .nav1 {
+        margin-left: 110px;
+    }
+    .hp1 {
+        font-size: 45px;
+    }
+    .hp2 {
+        font-size: 70px;
+    }
+    .btn01 {
+        font-size: 16px;
+        padding: 16px 35px;
+    }
+    .para1 h3 {
+        font-size: 26px;
+    }
+    .para2 h3 {
+        font-size: 26px;
+    }
+    .para1 p {
+        width: 280px;
+    }
+    .para2 p {
+        width: 280px;
+    }
+    .btn-01 {
+        font-size: 16px;
+        padding: 16px 24px;
+    }
+    .btn-02 {
+        font-size: 16px;
+        padding: 16px 24px;
+        margin-top: 64px;
+    }
+    .offph1 h2 {
+        font-size: 22px;
+    }
+    .offph2 h2 {
+        font-size: 22px;
+    }
+    .offph3 h2 {
+        font-size: 22px;
+    }
+    .pbox1 {
+        width: 30%;
+    }
+    .pbox2 {
+        width: 30%;
+    }
+    .pbox3 {
+        width: 30%;
+    }
+    .pbox3 button {
+        margin-left: 48px;
+    }
+    .pbox2 button {
+        margin-left: 48px;
+    }
+    .pbox1 button {
+        margin-left: 48px;
+    }
+    #email{
+        margin-left: 65px;
+    }
+    #mobi{
+        margin-left: 65px;
+    }
+    .nav2 {
+        margin-left: 88px;
+    }
+}
+@media(max-width:824px){
+    .nav1 {
+        margin-left: 65px;
+    }
+    .hp1 {
+        font-size: 42px;
+    }
+    .hp2 {
+        font-size: 65px;
+    }
+    .offset {
+        font-size: 85px;
+    }
+    .imgph3 {
+        width: 85%;
+    }
+    .offph3 h2 {
+        margin-left: 21px;
+    }
+    .offph3 p {
+        width: 90%;
+    }
+    .offph2 p {
+        width: 84%;
+        margin-left: 26px;
+    }
+    .gallimg3 {
+        width: 100%;
+    }
+    .gallimg4 {
+        width: 100%;
+    }
+    .gallimg5 {
+        width: 100%;
+    }
+    .gallery2 {
+        width: 100%;
+    }
+    .pbox1 button {
+        margin-left: 46px;
+    }
+    .pbox2 button {
+        margin-left: 46px;
+    }
+    .pbox3 button {
+        margin-left: 46px;
+    }
+    #email{
+        margin-left: 60px;
+    }
+    #mobi{
+        margin-left: 60px;
+    }
+    #loca{
+        margin-left: 60px;
+    }
+    .nav2 {
+        margin-left: 78px;
+    }
+    .copyrig p {
+        margin-left: 0px;
+    }
+}
+@media(max-width:774px){
+    .logo {
+        width: 120px;
+    }
+    .title {
+        font-size: 28px;
+    }
+    .nav1 {
+        margin-left: 80px;
+        font-size: 16px;
+    }
+    .hp1 {
+        font-size: 40px;
+    }
+    .hp2 {
+        font-size: 60px;
+    }
+    .feaurow1 {
+        flex-wrap: nowrap;
+        margin-left: -45px;
+    }
+    .feaurow1 {
+        flex-wrap: nowrap;
+        margin-left: -45px;
+    }
+    .offset {
+        font-size: 75px;
+    }
+    .offph3 h2 {
+        margin-left: 6px;
+    }
+    .pbox3 button {
+        margin-left: 38px;
+    }
+    .pbox2 button {
+        margin-left: 38px;
+    }
+    .pbox1 button {
+        margin-left: 38px;
+    }
+    #email{
+        margin-left: 52px;
+    }
+    #mobi{
+        margin-left: 52px;
+    }
+    #loca{
+        margin-left: 55px;
+    }
+    .nav2 {
+        margin-left: 60px;
+    }
+}
+@media(max-width:724px){
+    .nav1 {
+        margin-left: 44px;
+    }
+    .imgph2 {
+        width: 85%;
+    }
+    .feaurow1 {
+        height: 120vh;
+        flex-direction: column;
+    }
+    .trainer1 {
+        width: 90%;
+        margin-left: 80px;
+    }
+    .trainer2 {
+        width: 90%;
+        margin-top: 50px;
+        margin-left: 80px;
+    }
+    .para1 p {
+        width: 500px;
+        margin-left: 58px;
+    }
+    .para2 p {
+        width: 500px;
+        margin-left: 58px;
+    }
+    .offset {
+        font-size: 65px;
+    }
+    .offphoto {
+        display: block;
+        width: 100%;
+        height: 215vh;
+    }
+    .imgph1 {
+        margin-left: 48px;
+    }
+    .offph1 h2 {
+        font-size: 22px;
+        margin-top: -14px;
+        line-height: 52px;
+    }
+    .offph1 p {
+        margin-left: 65px;
+        margin-bottom: 50px;
+    }
+    .imgph2 {
+        margin-left: 48px;
+    }
+    .offph2 h2 {
+        font-size: 22px;
+        margin-top: -14px;
+        line-height: 52px;
+    }
+    .offph2 p {
+        margin-left: 65px;
+        margin-bottom: 60px;
+    }
+    .imgph3 {
+        margin-left: 48px;
+    }
+    .offph3 h2 {
+        font-size: 22px;
+        margin-top: -14px;
+        line-height: 52px;
+        margin-left: 60px;
+    }
+    .offph3 p {
+        margin-left: 60px;
+        margin-bottom: 60px;
+        width: 80%;
+    }
+    .gallery2 {
+        width: 100%;
+        height: 150vh;
+    }
+    .pricecont {
+       flex-direction: column;
+        width: 100%;
+        height: 250vh;
+    }
+    .pbox1 {
+        width: 45%;
+        margin-left: 190px;
+    }
+    .pbox2 {
+        width: 45%;
+        margin-left: 190px;
+    }
+    .pbox3 {
+        width: 45%;
+        margin-left: 190px;
+    }
+    .pbox1 button {
+        margin-left: 75px;
+    }
+    .pbox2 button {
+        margin-left: 75px;
+    }
+    .pbox3 button {
+        margin-left: 75px;
+    }
+    .pbox1 h2 {
+        font-size: 28px;
+    }
+    .pbox2 h2 {
+        font-size: 28px;
+    }
+    .pbox3 h2 {
+        font-size: 28px;
+    }
+    #email{
+        margin-left: 46px;
+    }
+    #mobi{
+        margin-left: 48px;
+    }
+    .nav2 {
+        margin-left: 50px;
+    }
+
+}
+@media(max-width:675px){
+    .nav1 {
+        display: none;
+ } 
+        #icon{
+            display: block;
+            margin-left: 290px;
+            cursor: pointer;  
+         }
+
+        ul{
+        flex-direction: column;
+        position: fixed;
+        width: 50%;
+        height: 80vh;
+        background: #2f3640;
+        top: 110px;
+        left: -50px;
+       text-align: start;
+       margin-left: 20px;
+       } 
+       .header nav{
+        background: #ffe6e64d;
+        position: fixed;
+        top: 0;
+       }
+       .headerpage1 {
+        margin-top: 220px;
+    }
+    .nav2 {
+        margin-left: 51px;
+        margin-top: 10px;
+        text-align: center;
+       justify-content: unset;
+    }
+    a{
+        padding: 5px;
+    top: 0;
+    font-size: 14px;
+    color: black;
+    }
+    a:hover{
+        border:1 px solid white;
+        transition: 5s;   
+    }
+
+     li{
+        display: flex;
+    flex-direction: column;
+    list-style: none;
+    }
+    ul.show{
+        left: -400px;
+        transition: 1s;
+    }
+    
+}
+@media(max-width:625px){
+    #icon {
+        margin-left: 245px;
+    }
+    .para1 p {
+        width: 390px;
+    }
+    .para2 p {
+        width: 390px;
+    }
+    .headercon {
+        background-position: center;
+    }
+    .hp1 {
+        font-size: 35px;
+        margin-left: 60px;
+    }
+    .hp2 {
+        font-size: 55px;
+        margin-left: 54px;
+    }
+    .btn01{
+        margin-left: 58px;
+    }
+    .offset {
+        font-size: 60px;
+    }
+    .pricetag {
+        font-size: 90px;
+    }
+    .pbox1 {
+        margin-left: 165px;
+    }
+    .pbox2 {
+        margin-left: 165px;
+    }
+    .pbox3 {
+        margin-left: 165px;
+    }
+    .pbox1 button {
+        margin-left: 55px;
+    }
+    .pbox2 button {
+        margin-left: 55px;
+    }
+    .pbox3 button {
+        margin-left: 55px;
+    }
+    #email{
+        margin-left: 40px;
+        font-size: 45px;
+    }
+    #mobi{
+        margin-left: 40px;
+        font-size: 45px;
+    }
+    #loca{
+        margin-left: 40px;
+        font-size: 45px;
+    }
+}
+@media(max-width:575px){
+    #icon {
+        margin-left: 200px;
+    }
+    .hp1 {
+        font-size: 32px;
+    }
+    .hp2 {
+        font-size: 49px;
+    }
+    .btn01 {
+        padding: 14px 30px;
+    }
+    .para1 p {
+        width: 350px;
+    }
+    .para2 p {
+        width: 350px;
+    }
+    .btn-01 {
+        font-size: 15px;
+        padding: 14px 22px;
+        margin-top: 70px;
+    }
+    .btn-02 {
+        font-size: 15px;
+        padding: 14px 22px;
+        margin-top: 70px;
+    }
+    .para1 p {
+        margin-top: 10px;
+    }
+    .para2 p {
+        margin-top: 10px;
+    }
+    .offset {
+        font-size: 55px;
+    }
+    .offph1 p {
+     margin-left: 55px;
+     }
+     .offph2 p {
+     margin-left: 55px;
+     }
+     .offphoto {
+        height: 225vh;
+     }
+     .pbox1 {
+        width: 55%;
+        margin-left: 125px;
+    }
+    .pbox2 {
+        width: 55%;
+        margin-left: 125px;
+    }
+    .pbox3 {
+        width: 55%;
+        margin-left: 125px;
+    }
+    .pbox1 button {
+        margin-left: 68px;
+    }
+    .pbox2 button {
+        margin-left: 68px;
+    }
+    .pbox3 button {
+        margin-left: 68px;
+    }
+    #email{
+        margin-left: 40px;
+        font-size: 45px;
+    }
+    #mobi{
+        margin-left: 34px;
+        font-size: 45px;
+    }
+    #loca{
+        margin-left: 40px;
+        font-size: 45px;
+    }
+    .num3 h2 {
+        margin-left: -10px;
+    }
+    #ftlogo {
+        text-align: center;
+        width: 30%;
+    }
+    .copyrig p {
+        font-size: 10px;
+    }
+     
+}
+@media(max-width:525px){
+    #icon {
+        margin-left: 170px;
+    }
+    .title {
+        font-size: 22px;
+    }
+    .hp1 {
+        font-size: 30px;
+    }
+    .hp2 {
+        font-size: 46px;
+    }
+    .para1 p {
+        width: 312px;
+    }
+    .para2 p {
+        width: 312px;
+    }
+    .offset {
+        font-size: 48px;
+    }
+    .imgph1 {
+        margin-left: 38px;
+    }
+    .imgph2 {
+        margin-left: 38px;
+    }
+    .imgph3 {
+        margin-left: 38px;
+    }
+    .gallery {
+        height: 120vh;
+        flex-wrap: wrap;
+    }
+    .gallimg1 {
+        margin-left: 46px;
+        height: 50vh;
+    }
+    .gallimg2 {
+        margin-left: 46px;
+        height: 50vh;
+        width: 90%;
+    }
+    .gallery2 {
+        width: 100%;
+        height: 185vh;
+        flex-wrap: nowrap;
+      display: block;
+      justify-content: unset;
+    }
+    .gallimg3 {
+      margin-left: 46px;
+        height: 50vh;
+        width: 80%;
+    }
+    .gallimg4{
+        margin-left: 46px;
+          height: 50vh;
+          width: 80%;
+      }
+     .gallimg5 {
+        margin-left: 46px;
+          height: 50vh;
+          width: 80%;
+      }
+      .pbox1 {
+        width: 55%;
+        margin-left: 112px;
+    }
+    .pbox2 {
+        width: 55%;
+        margin-left: 112px;
+    }
+    .pbox3 {
+        width: 55%;
+        margin-left: 112px;
+    }
+    .pbox1 button {
+        margin-left: 55px;
+    }
+    .pbox2 button {
+        margin-left: 55px;
+    }
+    .pbox3 button {
+        margin-left: 55px;
+    }
+    .pricetag {
+        font-size: 75px;
+    }
+    #email{
+        margin-left: 35px;
+        font-size: 45px;
+    }
+    #mobi{
+        margin-left: 28px;
+        font-size: 45px;
+    }
+    #loca{
+        margin-left: 35px;
+        font-size: 45px;
+    }
+}
+@media(max-width:475px){
+    .logo {
+        width: 105px;
+    }
+    #icon {
+        margin-left: 142px;
+    }
+    .nav2 {
+        margin-left: 51px;
+        margin-top: -5px;
+        text-align: center;
+        justify-content: unset;
+    }
+    .num3 p {
+        font-size: 13px;
+    }
+    .hp1 {
+        font-size: 26px;
+        margin-left: 50px;
+    }
+    .hp2 {
+        font-size: 40px;
+        margin-left: 44px;
+        line-height: 80px;
+    }
+    .btn01 {
+        padding: 12px 24px;
+        margin-left: 48px;
+    }
+    .headerpage1 {
+        margin-top: 270px;
+    }
+    .feaurow1 {
+        margin-left: -58px;
+    }
+    .para1 p {
+        width: 300px;
+        margin-left: 38px;
+    }
+    .para2 p {
+        width: 300px;
+        margin-left: 38px;
+    }
+    .offset {
+        font-size: 42px;
+    }
+    .offph1 p {
+        margin-left: 45px;
+    }
+    .offph2 p {
+        margin-left: 45px;
+    }
+    .offph3 p {
+        margin-left: 45px;
+    }
+    .gallimg2 {
+        margin-left: 40px;
+        height: 50vh;
+        width: 85%;
+    }
+    .pbox2 {
+        width: 65%;
+        margin-left: 80px;
+    }
+    .pbox1 {
+        width: 65%;
+        margin-left: 80px;
+    }
+    .pbox3 {
+        width: 65%;
+        margin-left: 80px;
+    }
+    .pbox1 button {
+        margin-left: 65px;
+    }
+    .pbox2 button {
+        margin-left: 65px;
+    }
+    .pbox3 button {
+        margin-left: 65px;
+    }
+    #email{
+        margin-left: 29px; 
+    }
+    #mobi{
+        margin-left: 23px;
+    }
+    #loca{
+        margin-left: 30px;
+    }
+    .copyrig span {
+        font-size: 9px;
+    }
+    .nav2 {
+        height: 86vh;
+    }
+}
+@media(max-width:424px){
+    .logo {
+        width: 95px;
+    }
+   #icon {
+        margin-left: 103px;
+    }
+    .nav2 {
+        margin-top: -15px;
+    }
+    .offset {
+        font-size: 38px;
+    }
+    .imgph1 {
+        margin-left: 30px;
+    }
+    .imgph2 {
+        margin-left: 30px;
+    }
+    .imgph3 {
+        margin-left: 30px;
+    }
+    .offph2 p {
+        margin-left: 34px;
+    }
+    .offph3 p {
+        margin-left: 34px;
+    }
+    .gallimg2 {
+        width: 80%;
+    }
+    .pricetag {
+        font-size: 60px;
+    }
+    .para1 p {
+        width: 317px;
+        margin-left: 12px;
+    }
+    .para2 p {
+        width: 317px;
+        margin-left: 12px;
+    }
+    .num1{
+        font-size: 11px;
+    }
+
+    .num2 {
+        width: 25%;
+        margin-left: 18px;
+    }
+    .num3 p {
+        font-size: 11px;
+    }
+    #email{
+        margin-left: 23px; 
+    }
+    #mobi{
+        margin-left: 18px;
+    }
+    #loca{
+        margin-left: 25px;
+    }
+    .pbox2 {
+        width: 70%;
+        margin-left: 58px;
+    }
+    .pbox1 {
+        width: 70%;
+        margin-left: 58px;
+    }
+    .pbox3 {
+        width: 70%;
+        margin-left: 58px;
+    }
+    .pbox1 button {
+        margin-left: 54px;
+    }
+    .pbox2 button {
+        margin-left: 54px;
+    }
+    .pbox3 button {
+        margin-left: 54px;
+    }
+    .nav2 {
+        margin-top: -15px;
+        height: 85vh;
+    }
+}
+@media(max-width:374px){
+    #icon {
+        margin-left: 52px;
+    }
+    .hp1 {
+        font-size: 26px;
+        margin-left: 30px;
+    }
+    .hp2 {
+        margin-left: 29px;
+    }
+    .btn01 {
+        margin-left: 34px;
+    }
+    .trainer1 {
+        margin-left: 74px;
+    }
+    .trainer2 {
+        margin-left: 74px;
+    }
+    .gallery {
+        margin-top: 50px;
+    }
+    .gallimg1 {
+        margin-left: 32px;
+    }
+    .gallimg2 {
+        margin-left: 32px;
+    }
+    .gallimg3 {
+        margin-left: 32px;
+    }
+    .gallimg4 {
+        margin-left: 32px;
+    }
+    .gallimg5 {
+        margin-left: 32px;
+    }
+    .pricetag {
+        font-size: 52px;
+        height: 22vh;
+    }
+    .pbox2 {
+        width: 80%;
+        margin-left: 35px;
+    }
+    .pbox1 {
+        width: 80%;
+        margin-left: 35px;
+    }
+    .pbox3 {
+        width: 80%;
+        margin-left: 35px;
+    }
+    .para1 h3 {
+        font-size: 22px;
+    }
+    .para2 h3 {
+        font-size: 22px;
+    }
+    .para1 p {
+        width: 290px;
+        margin-left: 0px;
+        text-align: center;
+        font-size: 13px;
+    }
+    .para2 p {
+        width: 290px;
+        margin-left: 0px;
+        text-align: center;
+        font-size: 13px;
+    }
+    .offset {
+        font-size: 34px;
+    }
+    .contact01 {
+        display: block;
+        height: 120vh;
+    }
+    .num1 {
+        width: 100%;
+    }
+    .num2 {
+        width: 93%;
+    }
+    .num3 {
+        width: 100%;
+    }
+    .num3 p{
+        font-size: 14px;
+    }
+    #email{
+        margin-left: 138px; 
+    }
+    #mobi{
+        margin-left: 120px;
+    }
+    #loca{
+        margin-left: 130px;
+    }
+
+
+}
+@media(max-width:324px){
+    .logo {
+        width: 80px;
+    }
+    .title {
+        font-size: 18px;
+    }
+    #icon {
+        margin-left: 82px;
+    }
+    .para1 p {
+        width: 265px;
+        margin-left: 0px;
+        text-align: center;
+        font-size: 12px;
+    }
+    .para2 p {
+        width: 265px;
+        margin-left: 0px;
+        text-align: center;
+        font-size: 12px;
+    }
+    .socialmed {
+        margin-left: 22px;
+    }
+    .ins {
+        margin-right: 10px;
+    }
+    #email{
+        margin-left: 135px; 
+    }
+    #mobi{
+        margin-left: 120px;
+    }
+    #loca{
+        margin-left: 130px;
+    }
+    .nav2 {
+        margin-top: -30px;
+        height: 86vh;
+    }
+}
